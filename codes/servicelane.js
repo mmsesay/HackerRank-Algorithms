@@ -26,7 +26,7 @@ function serviceLane(num, cases) {
         start = cases[i][0]; // 0
         end = cases[i][1]; // 3
 
-        let slicedObject = width.slice(start, end+1);
+        let slicedObject = width1.slice(start, end+1);
         let min = Math.min(...slicedObject);
         minimums.push(min)
 
@@ -38,9 +38,9 @@ function serviceLane(num, cases) {
   
   }
   
-  // console.log(minimums);
-  return minimums;
+  console.log(minimums);
+  // return minimums;
 
 }
 
-serviceLane(n, newCases);
+serviceLane(n, cases2DArray1);
